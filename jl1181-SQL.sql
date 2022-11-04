@@ -1,0 +1,2 @@
+select *
+FROM ((order_jl1181 INNER JOIN coustomer_jl1181 ON order_jl1181.Order_ID=coustomer_jl1181.Coustomer_ID) INNER JOIN carowner_jl1181 ON order_jl1181.Order_ID=carowner_jl1181.CarOwnerId) inner join car_jl1181 on order_jl1181.Order_ID=car_jl1181.Car_ID
